@@ -1,0 +1,74 @@
+[versions]
+agp = "8.7.1"
+animatedNavigationBar = "1.0.0"
+coilCompose = "2.4.0"
+coilComposeVersion = "2.2.2"
+compressor = "3.0.1"
+constraintlayoutCompose = "1.1.0-rc01"
+converterGson = "2.11.0"
+glide = "4.16.0"
+kotlin = "1.9.0"
+coreKtx = "1.13.1"
+junit = "4.13.2"
+junitVersion = "1.2.1"
+espressoCore = "3.6.1"
+kotlinxSerializationJson = "1.7.1"
+lifecycleExtensions = "2.2.0"
+lifecycleRuntimeKtx = "2.8.4"
+activityCompose = "1.9.0"
+composeBom = "2024.04.01"
+material3 = "1.3.0"
+materialIconsCore = "1.6.8"
+media3Common = "1.4.0"
+navigationCompose = "2.8.0"
+retrofit = "2.11.0"
+runtimeLivedata = "1.6.8"
+loggingInterceptor = "5.0.0-alpha.14"
+recyclerview = "1.3.2"
+animationGraphicsAndroid = "1.7.0"
+uiTextGoogleFonts = "1.7.1"
+runtimeAndroid = "1.7.4"
+
+[libraries]
+androidx-constraintlayout-compose = { module = "androidx.constraintlayout:constraintlayout-compose", version.ref = "constraintlayoutCompose" }
+androidx-core-ktx = { group = "androidx.core", name = "core-ktx", version.ref = "coreKtx" }
+androidx-lifecycle-extensions = { module = "androidx.lifecycle:lifecycle-extensions", version.ref = "lifecycleExtensions" }
+androidx-material-icons-core = { module = "androidx.compose.material:material-icons-core", version.ref = "materialIconsCore" }
+androidx-material-icons-extended = { module = "androidx.compose.material:material-icons-extended", version.ref = "materialIconsCore" }
+androidx-navigation-compose = { module = "androidx.navigation:navigation-compose", version.ref = "navigationCompose" }
+androidx-ui-text-google-fonts = { module = "androidx.compose.ui:ui-text-google-fonts", version.ref = "uiTextGoogleFonts" }
+animated-navigation-bar = { module = "com.exyte:animated-navigation-bar", version.ref = "animatedNavigationBar" }
+coil-compose = { module = "io.coil-kt:coil-compose", version.ref = "coilCompose" }
+coil-compose-v222 = { module = "io.coil-kt:coil-compose", version.ref = "coilComposeVersion" }
+coil-gif = { module = "io.coil-kt:coil-gif", version.ref = "coilCompose" }
+coil-transformations = { module = "io.coil-kt:coil-transformations", version.ref = "coilComposeVersion" }
+compressor = { module = "id.zelory:compressor", version.ref = "compressor" }
+converter-gson = { module = "com.squareup.retrofit2:converter-gson", version.ref = "converterGson" }
+glide = { module = "com.github.bumptech.glide:glide", version.ref = "glide" }
+junit = { group = "junit", name = "junit", version.ref = "junit" }
+androidx-junit = { group = "androidx.test.ext", name = "junit", version.ref = "junitVersion" }
+androidx-espresso-core = { group = "androidx.test.espresso", name = "espresso-core", version.ref = "espressoCore" }
+androidx-lifecycle-runtime-ktx = { group = "androidx.lifecycle", name = "lifecycle-runtime-ktx", version.ref = "lifecycleRuntimeKtx" }
+androidx-activity-compose = { group = "androidx.activity", name = "activity-compose", version.ref = "activityCompose" }
+androidx-compose-bom = { group = "androidx.compose", name = "compose-bom", version.ref = "composeBom" }
+androidx-ui = { group = "androidx.compose.ui", name = "ui" }
+androidx-ui-graphics = { group = "androidx.compose.ui", name = "ui-graphics" }
+androidx-ui-tooling = { group = "androidx.compose.ui", name = "ui-tooling" }
+androidx-ui-tooling-preview = { group = "androidx.compose.ui", name = "ui-tooling-preview" }
+androidx-ui-test-manifest = { group = "androidx.compose.ui", name = "ui-test-manifest" }
+androidx-ui-test-junit4 = { group = "androidx.compose.ui", name = "ui-test-junit4" }
+androidx-material3 = { group = "androidx.compose.material3", name = "material3" }
+androidx-media3-common = { group = "androidx.media3", name = "media3-common", version.ref = "media3Common" }
+kotlinx-serialization-json = { module = "org.jetbrains.kotlinx:kotlinx-serialization-json", version.ref = "kotlinxSerializationJson" }
+material3 = { module = "androidx.compose.material3:material3", version.ref = "material3" }
+retrofit = { module = "com.squareup.retrofit2:retrofit", version.ref = "retrofit" }
+androidx-runtime-livedata = { group = "androidx.compose.runtime", name = "runtime-livedata", version.ref = "runtimeLivedata" }
+logging-interceptor = { group = "com.squareup.okhttp3", name = "logging-interceptor", version.ref = "loggingInterceptor" }
+androidx-recyclerview = { group = "androidx.recyclerview", name = "recyclerview", version.ref = "recyclerview" }
+androidx-animation-graphics-android = { group = "androidx.compose.animation", name = "animation-graphics-android", version.ref = "animationGraphicsAndroid" }
+androidx-runtime-android = { group = "androidx.compose.runtime", name = "runtime-android", version.ref = "runtimeAndroid" }
+
+[plugins]
+android-application = { id = "com.android.application", version.ref = "agp" }
+jetbrains-kotlin-android = { id = "org.jetbrains.kotlin.android", version.ref = "kotlin" }
+
